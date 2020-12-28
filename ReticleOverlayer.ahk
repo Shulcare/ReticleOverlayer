@@ -1,12 +1,4 @@
 ; Displays an overlayed image in the center of the screen. Can be used e.g. for enhancing an in-game reticle with a custom image.
-; Does not work in true fullscreen applications. Please use "borderless fullscreen" mode instead.
-; Image can be of type .png or .ico. (Maybe also other "normal" image types that supports transparency, but not tested.)
-; For optimal centered placement, use an image with even pixel numbers for width and height, and of course make sure the reticle center is in the middle of the image.
-; Set variables image_path and overlay_state to your choice (section User variables).
-; If you need to adjust the image position, use variables x_offset & y_offset, in pixels (positive numbers = more right / down, negative = more left / up).
-; A global hotkey is registered to toggle the reticle's visibility on/off (section Hotkeys). Default is Ctrl + Numpad+. See https://documentation.help/AutoHotKey-Functions/Hotkeys.htm#Symbols and https://documentation.help/AutoHotKey-Functions/KeyList.htm for syntax.
-; To terminate the script, right-click on the green H symbol in the taskbar -> Exit.
-
 
 #SingleInstance force
 #Persistent
